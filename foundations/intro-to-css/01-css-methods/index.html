@@ -5,10 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
+    
+    <link rel = "stylesheet" href="styles.css"> 
+    <!-- ^ external method -->
+
+    <style>
+
+      .p1 {
+      color: white;
+      background-color: green;
+      }
+    </style>
+      <!-- ^internal method -->
   </head>
+
   <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <div class="header"><h2>Style me via the external method!</h2></div>
+    <div class="p1"><p>I would like to be styled with the internal method, please.</p></div>
+    <button style="color: black; background-color: orange;">Inline Method</button>
   </body>
+
 </html>
+
+
+
+<!-- what i learned:
+
+     use class selectors to select specific elements to change w CSS:
+     irregardless if you do internal or external
+
+          .header in the styles.css only changes items w class name class="header" 
+              [line 23 here]
+
+          .p1 only changes styles with class name ="p1"
+
+          inline: NO NEED FOR <div> just put style=" " by the tags
+                [line25]
+
+    for external = link it like line 9
+
+
+    internal use <style></style> below everything in title as in lines 12
+
+
+    <div> stands for division it isbused to group together elements
+
+      ex:
+      <div style="background-color: lightgray; padding: 20px;">
+          <h2>Newsletter Signup</h2>
+         <p>Stay updated with our latest news.</p>
+         <button>Subscribe</button>
+      </div>
+
+
+      all background here will be light gray
+
+-->
