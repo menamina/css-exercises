@@ -1,0 +1,38 @@
+/* 
+grouping selectors have 2 or more different classes that share same declarations/characsteristics
+    ex: mango, guava are different types of fruit but are both fruit
+to group different CLASSES together that share same characteristics use a ,
+    ex:    .fruit,
+           .vegetable,
+           .carb {
+           declarations
+           declarations
+                 }
+
+what is shared in this exercise:
+- font-size 28px + fonts
+
+what is not: text color + background
+
+for what is shared use same name for div class=
+for what is not use div id=
+
+no need for comma when separating classes from ids
+CHANGING BUTTON COLORS!!! directly on the html file withint the open tag <button>
+*/
+
+.same,
+.same1 {
+    font-size: 28px,
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+#leftbutton {
+    background-color: black;
+    color: white;
+}
+
+#rightbutton {
+    background-color: yellow;
+    color: black;
+}
