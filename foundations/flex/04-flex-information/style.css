@@ -22,6 +22,10 @@ img {
   gap: 52px;
 }
 
+.else {
+  max-width: 200px;
+}
+
 
 
 /* do not edit this footer */
